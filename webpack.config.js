@@ -6,11 +6,7 @@ const config = require('./config');
 
 module.exports = {
   devtool: 'cheap-module-source-map',
-  entry: [
-    'babel-polyfill',
-    'react-hot-loader/patch',
-    './src/index',
-  ],
+  entry: ['react-hot-loader/patch', './src/index'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',

@@ -8,10 +8,7 @@ const config = require('./config');
 
 module.exports = {
   devtool: 'source-map',
-  entry: [
-    'babel-polyfill',
-    './src/index',
-  ],
+  entry: ['babel-polyfill', './src/index'],
   output: {
     path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js',
