@@ -1,5 +1,5 @@
 {
-  "name": "react-starter",
+  "name": "observatoire-gouvernement",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --hot --history-api-fallback --open",
